@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+p, dd, li, nav, input {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+}
+dt, h4 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+}
+h1, h2, h3, nav a, nav span, #burger, footer, #social li, #avatar  {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+}
+nav a, nav span, #burger, footer, #social li {
+    font-size: 20px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+}
+#tacos-desc h2, #dir-ing #dir {
+    visibility: hidden;
+    height: 1px;
+    width: 1px;
+}
+nav h2 {
+    visibility: hidden;
+    height: 1px;
+}
+html {
+    background-color: rgba(122, 191, 191, .5);
+}
+body {
+    background-color: #F2F2F2;
+    margin: auto;
+}
+#recommendations {
+    background-color: #7ABFBF;
+}
+#home {
+    background-color: #EB5428;
+}
+#main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+#search {
+    background-color: #EB5428;
+    height: 40px;
+}
+#search form {
+    position: relative;
+    top: -65px;
+}
+#search form svg {
+    position: relative;
+    top: 15px;
+}
+#search h2 {
+    visibility: hidden;
+    height: 1px;
+}
+#street-aside p {
+    position: relative;
+    left: 0px;
+    top: -20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-size: 15px;
+    color: #EB5428;
+}
+#top-heading {
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+}
+#recomendations {
+    background-color: #7ABFBF;
+}
+.stars ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#rice, #salsa, #guac, #tortilla {
+    height: 120px;
+}
+#rice h3, #salsa h3, #guac h3, #tortilla h3 {
+    position: relative;
+    left: 125px;
+    top: -20px;
+}
+#rice img, #salsa img, #guac img, #tortilla img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -75px;
+}
+#rice p, #salsa p, #guac p, #tortilla p {
+    position: relative;
+    left: 125px;
+    top: -160px;
+    width: 250px;
+}
+#rice h4, #salsa h4, #guac h4, #tortilla h4 {
+    position: relative;
+    left: 125px;
+    top: -180px;
+    width: 250px;
+}
+#rice .stars, #salsa .stars, #guac .stars, #tortilla .stars {
+    position: relative;
+    width: 250px;
+    top: -190px;
+    left: 80px;
+}
+footer {
+    background-color: white;
+}
+footer h2, footer h3 {
+    visibility: hidden;
+    height: 1px;
+}
+footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 414px;
+}
+footer li {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    color: #EB5428;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 100px;
+    position: relative;
+    left: -50px;
+}
+footer li svg {
+    position: relative;
+    left: 30px;
+}
+footer li p {
+    font-family: 'Bebas Neue';
+    position: relative;
+    top: -20px;
+}
+footer img {
+    width: 207px;
+}
+footer p {
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+/*---------------------------------------
+-----------------------------------------
+              414px Screen
+-----------------------------------------
+---------------------------------------*/
+@media screen and (min-width: 414px) {
+    body {
+        width: 414px;
+    }
+    article img {
+        width: 414px;
+        position: relative;
+        left: -40px;
+    }
+    #main-nav {
+        height: 82px;
+        width: 416px;
+        z-index: 100;
+    }
+    #home {
+        padding: 10px 90px 12px 90px;
+        position: relative;
+        left: -145px;
+    }
+    #main-nav ul {
+        visibility: hidden;
+    }
+    #burger {
+        position: relative;
+        left: -125px;
+        top: -5px;
+    }
+    #burger figcaption {
+        margin: auto;
+        position: relative;
+        left: 2px;
+        top: -7px;
+    }
+    #avatar {
+        position: relative;
+        left: -435px;
+        top: 0px;
+    }
+    #avatar figcaption {
+        width: 103.5px;
+        margin: auto;
+        position: relative;
+        left: -8px;
+        top: -7px;
+    }
+    #search {
+        position: relative;
+        left: 70px;
+        z-index: 90;
+        position: relative;
+        top: -3020px;
+        width: 260px;
+    }
+    #search form {
+        position: relative;
+        left: 5px;
+    }
+    #search form input {
+        color: gray;
+        font-size: 10px;
+        height: 30px;
+        position: relative;
+        top: -2px;
+        width: 200px;
+    }
+    #street-aside ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #street-aside li {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    #save {
+        position: relative;
+        left: -30px;
+    }
+    #share {
+        position: relative;
+        left: -65px;
+    }
+    #print {
+        position: relative;
+        left: -95px;
+    }
+    #jump {
+        position: relative;
+        left: -120px;
+    }
+    #street-aside {
+        position: relative;
+        top: 80px;
+        height: 40px;
+    }
+    #top-heading {
+        top: 0px;
+        height: 20px;
+    }
+    #tacos-desc {
+        position: relative;
+        top: 50px;
+        height: 950px;
+    }
+    #tacos-desc p {
+        width: 394px;
+        position: relative;
+        left: 10px;
+    }
+    main {
+        height: 1950px;
+    }
+    #details h2 {
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        top: 20px;
+    }
+    #details ul {
+        position: relative;
+        left: -30px;
+    }
+    #details {
+        padding: 0;
+        margin: 0;
+    }
+    #ingredients h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    #ingredients ul {
+        list-style-type: disc;
+    }
+    #ingredients li {
+        padding-bottom: 30px;
+    }
+    #directions h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    #directions li {
+        padding-bottom: 30px;
+    }
+    #recomendations {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 414px;
+    }
+    #recomendations h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    #social {
+        position: relative;
+        left: -20px;
+    }
+    #copyright img {
+        position: relative;
+        left: 100px;
+        top: -100px;
+    }
+    #copyright p {
+        position: relative;
+        margin: auto;
+        text-align: center;
+        top: 175px;
+        left: -5px;
+    }
+}
+/*---------------------------------------
+-----------------------------------------
+              768px Screen
+-----------------------------------------
+---------------------------------------*/
+@media screen and (min-width: 768px) {
+    body {
+        width: 768px;
+    }
+    article img {
+        width: 768px;
+    }
+    #burger {
+        visibility: hidden;
+        height: 1px;
+    }
+    #main-nav {
+        width: 768px;
+        height: 180px;
+    }
+    #home {
+        padding: 10px 10px 12px 10px;
+        position: relative;
+        left: -225px;
+    }
+    #avatar {
+        position: relative;
+        left: -380px;
+    }
+    #search {
+        position: fixed;
+        top: 20px;
+        z-index: 100;
+        left: 420px;
+        width: 350px;
+    }
+    #search input {
+        padding-right: 100px;
+    }
+    #search svg {
+        left: -5px;
+    }
+    #main-nav ul {
+        visibility: visible;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        position: relative;
+        left: -350px;
+        top: 50px;
+    }
+    #main-nav li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #main-nav li img {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        top: -30px;
+    }
+    #main-nav ul li p {
+        color: #EB5428;
+        font-family: 'Bebas Neue';
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        top: 70px;
+    }
+    main {
+        height: 1800px;
+        position: relative;
+        top: 650px;
+    }
+    header {
+        position: relative;
+        top: -100px;
+        height: 900px;
+    }
+    header #top-heading {
+        position: relative;
+        top: 100px;
+        left: -315px;
+    }
+    #street-aside {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        height: 80px;
+        position: relative;
+        top: 215px;
+        z-index: 1;
+    }
+    #tacos-desc img {
+        position: relative;
+        top: 15px;
+    }
+    #tacos-desc p {
+        width: 760px;
+        line-height: 24px;
+    }
+    #details {
+        position: relative;
+        text-align: center;
+        line-height: 30px;
+    }
+    #dir-ing {
+        display: grid;
+        grid-template-columns: 0.1fr 1fr 2fr;
+        position: relative;
+    }
+    #ingredients li {
+        padding-bottom: 15px;
+    }
+    #directions li {
+        width: 500px;
+        padding-bottom: 50px;
+    }
+    #recomendations {
+        width: 768px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 400px;
+        position: relative;
+    }
+    #rice, #guac {
+        position: relative;
+        top: 150px;
+    }
+    #recomendations h2 {
+        position: relative;
+        left: 200px;
+        padding-bottom: 0;
+    }
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        height: 400px;
+    }
+    footer #copyright img {
+        position: relative;
+        top: 0px;
+        left: 20px;
+    }
+    footer #copyright p {
+        position: relative;
+        top: 270px;
+        left: 20px;
+    }
+}
+/*---------------------------------------
+-----------------------------------------
+              1280px Screen
+-----------------------------------------
+---------------------------------------*/
+@media screen and (min-width: 1280px) {
+
+    body {
+        width: 1280px;
+    }
+    #details {
+        background-color: #0D0D0D;
+        color: #7ABFBF;
+    }
+    article img {
+        width: 768px;
+    }
+    #burger {
+        visibility: hidden;
+        height: 1px;
+    }
+    #main-nav {
+        width: 1280px;
+        height: 82px;
+    }
+    #home {
+        position: relative;
+        left: -240px;
+    }
+    #avatar {
+        position: relative;
+        left: 90px;
+    }
+    #main-nav ul {
+        position: relative;
+        top: -38px;
+        left: -100px;
+    }
+    header {
+        display: grid;
+        
+    }
+    #street-aside {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    header #street-aside ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: white;
+        border: #EB5428 3px solid;
+        height: 750px;
+        width: 75px;
+        position: relative;
+        top: -15px;
+    }
+    #save, #share, #print, #jump {
+        position: relative;
+        left: -40px;
+        top: 0;
+    }
+    header article figure img {
+        height: 756px;
+        width: 504px;
+        position: relative;
+        left: 81px;
+    }
+    header #top-heading {
+        position: relative;
+        margin: auto;
+        text-align: center;
+        left: 0px;
+        top: 80px;
+        font-size: 40px;
+    }
+    #tacos-desc {
+        display: flex;
+        flex-direction: row;
+        height: 756px;
+        position: relative;
+        top: 85px;
+        left: -2px;
+    }
+    #tacos-desc div p {
+        width: 640px;
+        position: relative;
+        left: 50px;
+        top: 10px;
+    }
+    main {
+        height: 1250px;
+    }
+    #dir-ing {
+        position: relative;
+        top: -500px;
+        height: 460px;
+    }
+    #details {
+        height: 250px;
+        position: relative;
+        top: -572px;
+    }
+    #details ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding-top: 70px;
+    }
+    #details ul b {
+        display: block;
+    }
+    #details ul li {
+        display: flex;
+        flex-direction: column;
+    }
+    #ingredients h2 {
+        position: relative;
+        left: -0px;
+    }
+    #directions li {
+        width: 1000px;
+    }
+    #recomendations section .rating h4 {
+        position: relative;
+        left: 0px;
+        top: 0;
+    }
+    #recomendations section .stars {
+        position: relative;
+        left: -120px;
+        top: 5px;
+    }
+    #recomendations {
+        width: 1280px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -500px;
+        height: 400px;
+    }
+    #recomendations h2 {
+        text-align: center;
+        margin: auto;
+        position: relative;
+        left: 500px;
+        top: 0;
+    }
+    #recomendations {
+        display: grid;
+        grid-template-areas:
+        ". header header ."
+        "rice salsa guac tort";
+    }
+    #rice {
+        grid-area: rice;
+    }
+    #salsa {
+        grid-area: salsa;
+    }
+    #guac {
+        grid-area: guac;
+    }
+    #tortilla {
+        grid-area: tort;
+    }
+    #recomendations section {
+        position: relative;
+        left: 50px;
+        top: 0;
+        width: 300px;
+        height: 500px;
+        display: grid;
+        grid-template-areas:
+        "img" "title" "desc" "rate";
+    }
+    #recomendations section h3 {
+        grid-area: title;
+        position: relative;
+        left: 0;
+        top: -20px;
+    }
+    #recomendations section img {
+        grid-area: img;
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 200px;
+        height: 200px;
+    }
+    #recomendations section p {
+        grid-area: desc;
+        position: relative;
+        left: 0;
+        top: -50px;
+        width: 200px;
+    }
+    #recomendations section .rating {
+        grid-area: rate;
+        position: relative;
+        left: 0;
+        top: -70px;
+        display: flex;
+    }
+    #search {
+        position: relative;
+        top: -2550px;
+        left: 450px;
+        z-index: 10;
+    }
+    footer {
+        height: 300px;
+    }
+    #copyright {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #copyright div {
+        position: relative;
+        top: -200px;
+        left: -20px;
+    }
+}
